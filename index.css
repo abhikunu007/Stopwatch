@@ -22,8 +22,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 85vh;
     flex-direction: column;
+}
+
+/* css for the heading */
+#heading{
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* css for the text below toggle button */
+#mode{
+    position: absolute;
+    top: 40px;
+    right: 5px;
 }
 
 /* css for the stopwatch section */
@@ -57,14 +73,14 @@ button{
     font-size: larger;
     margin: 10px;
     width:100px;
-    box-shadow: 5px 5px 1px ;
+    box-shadow: 5px 5px 1px antiquewhite ;
     transition: all 0.5s;
 }
 
 /* css for the buttons when we hover over them */
 button:hover{
     cursor: pointer;
-    background-color:rgb(146, 113, 176) ;
+    background-color:rgb(126, 92, 157) ;
 }
 
 /* css for the buttons when we click on it and it is active */
