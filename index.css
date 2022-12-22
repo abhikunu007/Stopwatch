@@ -1,0 +1,88 @@
+
+/* css for the root */
+:root{
+    --bg: rgb(58, 7, 95);
+    margin: 0;
+    padding: 0;
+}
+
+/* css for the dark mode */
+.darkmode {
+    --bg: black;
+}
+
+/* css for the body */
+body{
+    background-color: var(--bg);
+
+}
+
+/* css for the main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    flex-direction: column;
+}
+
+/* css for the stopwatch section */
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px ;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* css for the subscript(Hr,Min and sec) */
+#sub{
+    vertical-align: sub;
+    font-size: 30px;
+}
+
+/* css for the buttons to make it flex */
+#buttons{
+    display: flex;
+}
+
+/* css for the buttons  */
+button{
+    padding: 20px;
+    background-color:var(--bg);
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    width:100px;
+    box-shadow: 5px 5px 1px ;
+    transition: all 0.5s;
+}
+
+/* css for the buttons when we hover over them */
+button:hover{
+    cursor: pointer;
+    background-color:rgb(146, 113, 176) ;
+}
+
+/* css for the buttons when we click on it and it is active */
+button:active{
+    box-shadow: none;
+    transition: all 0.5;
+}
+
+/* css for the toggle button to enable or disable dark mode */
+#flexSwitchCheckDefault{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* css for the toggle button when we hover over them */
+#flexSwitchCheckDefault:hover{
+    cursor: pointer;
+    
+}
+
